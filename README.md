@@ -21,7 +21,7 @@ Combine tiles with the same number to create higher-value tiles. There are no li
 
 ## Getting Started
 
-This project is in active development. To try out the current version locally:
+To try out the game locally:
 
 1. Clone the repository:
    ```bash
