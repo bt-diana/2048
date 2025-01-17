@@ -1,14 +1,24 @@
 {
-  "name": "layouts",
+  "name": "2048",
+  "description": "2048 web-game",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
     "watch": "webpack -w --mode development",
     "build": "SET NODE_ENV='production' && webpack --mode production"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bt-diana/2048.git"
+  },
+  "keywords": [
+    "javascript",
+    "css",
+    "html",
+    "webpack",
+    "mvc"
+  ],
+  "author": "Butiakova Diana <butyakova01@gmail.com> (https://github.com/bt-diana)",
+  "license": "MIT",
   "devDependencies": {
     "babel-loader": "^9.1.3",
     "css-loader": "^6.10.0",
