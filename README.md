@@ -1,6 +1,6 @@
 # 2048 Game
 
-This project is a classic implementation of the **2048 game**, built with a focus on smooth user experience.
+This project is an implementation of the **2048 game**, built with a focus on smooth user experience.
 
 The primary purpose of this project was to gain hands-on experience in working with **CSS animations**.
 
