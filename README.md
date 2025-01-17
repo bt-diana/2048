@@ -17,6 +17,8 @@ Combine tiles with the same number to create higher-value tiles. There are no li
 - **Score Points:** Each merge adds the value of the new tile to your score.
 - **Game Over:** The game ends if there are no more valid moves (no empty spaces and no adjacent tiles with the same number).
 
+![2048-game](https://github.com/user-attachments/assets/d45fd3c1-c5e5-43ea-bf1b-fe2adef7f86a)
+
 ## Getting Started
 
 This project is in active development. To try out the current version locally:
