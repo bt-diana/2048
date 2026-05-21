@@ -64,6 +64,7 @@ export default class Controller {
                 finalScore: this.model.score,
                 bestScore: this.model.bestScore,
                 gridSize: `${this.model.rows}x${this.model.columns}`,
+                highestTile: this.model.squares.reduce((max, s) => Math.max(max, s.value), 0),
             });
 
             this.model.reset();
