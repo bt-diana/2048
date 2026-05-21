@@ -58,6 +58,14 @@ export default class Controller {
         });
 
         this.view.bindReset(() => {
+            globalThis.dataLayer = globalThis.dataLayer || [];
+            globalThis.dataLayer.push({
+                event: 'new_game',
+                finalScore: this.model.score,
+                bestScore: this.model.bestScore,
+                gridSize: `${this.model.rows}x${this.model.columns}`,
+            });
+
             this.model.reset();
             this.view.deleteAllSquares();
             this.view.resetScore();
